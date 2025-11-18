@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(e){"use strict";return e.extend("tmt.treemap.controller.Main",{goTreeMap(){const e=this.byId("consInput").getValue();if(!e)return;this.getOwnerComponent().getRouter().navTo("TreeMap",{cons:e})}})});
+//# sourceMappingURL=Main.controller.js.map

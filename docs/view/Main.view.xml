@@ -1,0 +1,12 @@
+<mvc:View controllerName="tmt.treemap.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <Page title="Tree Map Home">
+        <VBox class="sapUiLargeMargin">
+            <Input id="consInput" placeholder="Enter Consignment Number" width="18rem"/>
+            <Button text="Show Tree Map" press=".goTreeMap" class="sapUiSmallMarginTop"/>
+        </VBox>
+    </Page>
+
+</mvc:View>

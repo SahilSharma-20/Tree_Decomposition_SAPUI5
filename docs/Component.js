@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent","tmt/treemap/model/models"],function(e,t){"use strict";return e.extend("tmt.treemap.Component",{metadata:{manifest:"json"},init:function(){e.prototype.init.apply(this,arguments);this.setModel(t.createDeviceModel(),"device");this.getRouter().initialize()}})});
+//# sourceMappingURL=Component.js.map

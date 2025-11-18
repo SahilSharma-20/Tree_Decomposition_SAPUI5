@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decomposition Tree Graph</title>
+
+    <style>
+        html, body, #content {
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+
+    <!-- SAP UI5 Bootstrap -->
+    <script
+        id="sap-ui-bootstrap"
+        src="https://ui5.sap.com/1.142.1/resources/sap-ui-core.js"
+        data-sap-ui-theme="sap_horizon"
+        data-sap-ui-resourceroots='{"tmt.treemap": "./dist"}'
+        data-sap-ui-on-init="module:sap/ui/core/ComponentSupport"
+        data-sap-ui-compat-version="edge"
+        data-sap-ui-async="true">
+    </script>
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body class="sapUiBody" id="content">
+    <!-- This will load your Component.js -->
+    <div
+        data-sap-ui-component
+        data-name="tmt.treemap.Component"
+        data-id="container"
+        data-settings='{"id": "tmt.treemap"}'>
+    </div>
+</body>
+</html>
