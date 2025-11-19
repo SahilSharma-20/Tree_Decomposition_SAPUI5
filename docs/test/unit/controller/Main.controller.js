@@ -1,2 +1,0 @@
-sap.ui.define(["tmt/treemap/controller/Main.controller"],function(t){"use strict";QUnit.module("Main Controller");QUnit.test("I should test the Main controller",function(n){var e=new t;e.onInit();n.ok(e)})});
-//# sourceMappingURL=Main.controller.js.map
