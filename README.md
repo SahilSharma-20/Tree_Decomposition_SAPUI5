@@ -1,5 +1,10 @@
 ## Application Details
 |               |
+
+<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/35910a8b-fdb0-4600-9c54-fa092e5f0f61" />
+<img width="1893" height="903" alt="image" src="https://github.com/user-attachments/assets/ec735d13-e873-405b-ae48-8eae17ec9576" />
+
+
 | ------------- |
 |**Generation Date and Time**<br>Tue Nov 18 2025 09:43:25 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>SAP Fiori Application Generator|
